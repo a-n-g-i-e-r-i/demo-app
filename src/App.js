@@ -10,6 +10,7 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <h2>{process.env.NODE_ENV} environment</h2>
+        <h3>{process.env.REACT_APP_NOT_SECRET_QUESTION}</h3>
         <p>what environment are we in? {process.env.NODE_ENV === 'production' ? process.env.REACT_APP_NOT_SECRET_PROD : process.env.REACT_APP_NOT_SECRET_DEV}.</p>
         <a
           className="App-link"
